@@ -87,6 +87,7 @@ export const Login = () => {
             <div className="form-block">
               <Typography variant="h2">Registered Customers</Typography>
               <p>If you have an account with us, please log in.</p>
+              <p style={{ color: "black",fontWeight:"bold" }}>Admin: Email: admin@tatvasoft.com Password: admin@123</p>
               <Formik
                 initialValues={initialValues}
                 validationSchema={validationSchema}
